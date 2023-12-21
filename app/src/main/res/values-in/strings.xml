@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Terrestrial</string>
+    <string name="email">Email</string>
+    <string name="password">Kata Sandi</string>
+    <string name="login">Masuk</string>
+    <string name="Signup_text">Tidak punya akun ? </string>
+    <string name="Signup_button">Daftar Sekarang</string>
+    <string name="name">Nama</string>
+    <string name="signup">Buat Akun Saya</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_upload_course">Upload</string>
+    <string name="title_setting">Setting</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_login">Masuk</string>
+    <string name="dialog_title_success">Yeah!</string>
+    <string name="dialog_message_success">Akunmu telah dibuat. \nselamat belajar:)</string>
+    <string name="dialog_button_next">Lanjut</string>
+    <string name="hore">Hore! kamu adalah %s</string>
+    <string name="rekomendasi_result">Kami ada rekomendasi kelas buatmu</string>
+    <string name="Next">Selanjutnya</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+    <string name="language">Bahasa</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails</string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="searchbar_hint">Cari</string>
+    <string name="tag_line">apa yang ingin dipelajari hari ini?</string>
+    <string name="profile">Profil</string>
+    <string name="logout">Keluar</string>
+    <string name="title_Detail_kursus">Detail Kursus</string>
+    <string name="title_kursus_name">Judul Kursus</string>
+    <string name="Description_class">Deskripsi Kelas</string>
+    <string name="kursus_kelas">kursus kelas</string>
+    <string name="Rekomendasi_kelas">Rekomendasi kursus Kelas</string>
+    <string name="login_button">Masuk</string>
+    <string name="login_text">Sudah memiliki akun?</string>
+    <string name="create_account_succes">Akun Berhasil di buat</string>
+    <string name="create_account_failed">Akun Gagal di buat</string>
+    <string name="Belajar">Belajar</string>
+    <string name="pic_kursus">picture kursus</string>
+    <string name="login_succes">Login Succes</string>
+    <string name="login_failed">Email/Kata sandi salah</string>
+    <string name="not_empty_form">form tidak boleh kosong</string>
+    <string name="valid_email">email tidak valid</string>
+    <string name="image_description">Gambar</string>
+    <string name="coming_soon">Mohon maaf ges,,\nfiturnya belum jadi masih aku koding.\nhuftt....</string>
+    <string name="question">Recommendation question</string>
+    <string name="submit">Submit</string>
+    <string name="null_data">Data gagal dimuat</string>
+    <string name="error">Error</string>
+    <string name="title_question">Question Career recommendations</string>
+    <string name="coming">Coming Soon</string>
+</resources>
