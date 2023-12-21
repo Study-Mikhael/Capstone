@@ -1,0 +1,59 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  email String @id @db.VarChar(100)
+  password String @db.VarChar(100)
+  name     String @db.VarChar(100)
+  token    String? @db.VarChar(100)
+  contacts Contact[]
+  
+
+  @@map("users")
+}
+
+model Contact {
+  id Int @id @default(autoincrement())
+  courseName String @db.VarChar(100)
+  thumbnail String @db.VarChar(255)
+  courseType CourseType
+  describe String @db.VarChar(255)
+  learning String @db.Text()
+  email String @db.VarChar(100)
+
+  user User @relation(fields:[email],references:[email])
+
+  @@map("contacts")  
+}
+
+model Question {
+  id Int @id @default(autoincrement())
+  queText String @db.VarChar(255)
+  answer1 String @db.VarChar(255)
+  answer2 String @db.VarChar(255)
+  answer3 String @db.VarChar(255)
+  @@map("questions")
+}
+
+
+enum CourseType {
+  Frontend
+  Backend
+  Data
+}
+
+
+
+
+
+
+
